@@ -1,0 +1,138 @@
+.company{
+    background-color:#fbc6a4;
+}
+.company:hover{
+    background-color:#f4a9a8 ;
+}
+.smile{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.joke{
+    font-family: 'Goblin One', cursive;
+    text-transform: uppercase;
+}
+.joke:hover{
+    color:#ff5e78;
+}
+.lips{
+    width:400px;
+}
+.sea{
+    font-family: 'Raleway', sans-serif;
+}
+.sea:hover{
+    color: #ff5e78;
+}
+.wave{
+    font-style: italic;
+    font-size: 20px;
+}
+.wind{
+    font-family: 'Gravitas One', cursive;
+    font-size: 30px;
+}
+.wind:hover{
+    color:#ff5e78;
+}
+.wood{
+    display: flex;
+    flex-direction: column; 
+}
+.twice{
+    font-style: italic;
+    color:#ce1f6a
+}
+.log{
+    align-self:center;
+    font-size:20px;
+}
+.last{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color:#e93b81;
+    border-radius: 30px;
+    text-decoration: none;
+    padding:20px;   
+}
+.btn:hover{
+    background-color:#f5abc9;
+
+}
+
+
+
+@media all and (max-width:800px){
+    .company{
+        background-color:#98ded9 ;
+    }
+    .smile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .joke{
+        align-self: center;
+        font-size: 40px;
+    
+    }
+    .lips{
+        width:400px;
+    }
+    .sea{
+        font-size:40px;
+    }
+    .wood{
+        display: flex;
+        flex-direction: column;
+    }
+    .log{
+        font-size:30px;
+    }
+    .wave{
+        font-size: 20px;
+        align-self: baseline;
+    
+    }
+
+}
+
+@media all and (max-width: 500px){
+    .company{
+        background-color:#bbdfc8;
+    }
+    .smile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .joke{
+        font-size:30px;
+    }
+    .lips{
+        width:200px;
+    }
+    .sea{
+        font-size:25px;
+    }
+    .wind{
+        font-size: 20px;
+    }
+    .wave{
+        font-size: 15px;
+    }
+    .wood{
+        display: flex;
+        flex-direction: column;      
+    }
+    .twice{
+        align-self: center;
+        font-size:15px ;
+        
+    
+    }
+
+}

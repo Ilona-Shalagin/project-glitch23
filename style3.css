@@ -1,0 +1,113 @@
+.lot{
+    background-color:#eb596e ;
+}
+.lot:hover{
+    background-color:#ca8a8b;
+}
+.less{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.latte{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Pattaya', sans-serif;
+}
+.si{
+    width:300px;
+}
+.coffe{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.coffe:hover{
+    color:#0061a8;
+}
+
+.drink{
+    font-style: italic;
+    font-size:20px;
+    color:#02475e;
+}
+.juice{
+    align-self:center;
+    font-size: 20px;
+    font-family: 'Athiti', sans-serif;
+}
+.juice:hover{
+    color:#0061a8;
+}
+.mos{
+    display: flex;
+    flex-direction: column; 
+}
+.mix{
+    align-self:center;
+    font-size:20px;
+    text-decoration: none;   
+}
+.max{
+    color:#02475e; 
+}
+.last{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color:#e93b81;
+    border-radius: 30px;
+    text-decoration: none;
+    padding:20px;   
+}
+.btn:hover{
+    background-color:#f5abc9;
+
+}
+
+
+
+
+@media all and (max-width:800px){
+    .lot{
+        background-color:#ffc7c7;
+    }
+    .less{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .si{
+        width:500px;
+    }
+    .drink{
+        font-size: 18px;
+    }
+
+}
+
+@media all and (max-width:500px){
+    .lot{
+        background-color:#eec4c4;
+    }
+    .less{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .si{
+        width:300px;
+    }
+    .latte{
+        font-size: 25px;
+    }
+    .coffe{
+        font-size: 20px;
+    }
+    .drink{
+        font-size: 15px;
+    }
+
+
+}

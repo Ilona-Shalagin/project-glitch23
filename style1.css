@@ -1,0 +1,135 @@
+.right{
+    background-color: #ff9292;
+}
+.right:hover{
+    background-color:#ffb4b4;
+}
+.else{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left{
+    font-family: 'Bad Script', cursive;
+    text-transform: uppercase;
+}
+.left:hover{
+    color: #4a47a3;
+    text-transform: uppercase;
+}
+.var{
+    width:400px;
+}
+.if{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+}
+.if:hover{
+    color:#4a47a3;
+}
+.so{
+    font-style:italic;
+}
+.no{
+    font-family: 'Lora', serif;
+    font-size: 20px;
+}
+.no:hover{
+    color:#4a47a3;
+}
+.next{
+    display: flex;
+    flex-direction: column;
+}
+.around{
+    align-self: center;
+    list-style: none;  
+    font-family: 'Raleway', sans-serif;
+}
+.last{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color:#e93b81;
+    border-radius: 30px;
+    text-decoration: none;
+    padding:20px;   
+}
+.btn:hover{
+    background-color:#f5abc9;
+
+}
+
+
+
+
+@media all and (max-width:800px){
+    .right{
+        background-color:#cfdac8 ;
+    }
+    .else{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .left{
+        font-size: 50px;
+    }
+    .var{
+        width:500px;
+    }
+    .if{
+        font-size: 40px;
+    }
+    .so{
+        font-size:25px;
+    }
+    .no{
+        font-size: 30px;
+    }
+    .next{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .around{
+        font-size:20px;
+    }
+}
+
+@media all and (max-width:500px){
+    .right{
+        background-color:#d0e8f2;
+    }
+    .else{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left{
+        font-size: 25px;
+    }
+    .var{
+        width:200px;
+    }
+    .if{
+        font-size: 20px;
+    }
+    .so{
+        font-size:15px;
+    }
+    .no{
+        align-self: center;
+        font-size:15px;
+    }
+    .next{
+        display: flex;
+        flex-direction: column;
+    }
+    .around{
+        font-size: 15px;
+    }
+
+}
